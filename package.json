@@ -1,0 +1,29 @@
+{
+  "name": "hotels-app-backend",
+  "version": "1.0.0",
+  "description": "API REST HOTELS-APP",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --watch --color --config webpack.config.js",
+    "start": "node dist/bundle.js"
+  },
+  "author": "Yonnathan Henao",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.6"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.16.8",
+    "@types/cors": "^2.8.3",
+    "@types/express": "^4.0.39",
+    "@types/mongoose": "^4.7.28",
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.5",
+    "webpack-node-externals": "^1.6.0"
+  }
+}
