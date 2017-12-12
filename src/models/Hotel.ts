@@ -5,24 +5,32 @@ const Schema = mongoose.Schema;
 const HotelSchema = new Schema({
     name: {
         type: String,
-        default: '',
-        //required: true
+        default: ''
     },
     stars: {
         type: String,
-        default: '',
-        //required: true
+        default: ''
     },
     images: {
         type: [],
-        default: '',
-        //required: true
+        default: ''
     },
     price: {
         type: String,
-        default: '',
-        //required: true
-    }    
+        default: ''
+    },
+    address: {
+        type: String,
+        default: ''
+    },
+    latitude: {
+        type: String,
+        default: ''
+    },
+    longitude: {
+        type: String,
+        default: ''
+    }
 });
 
 export default mongoose.model('Hotel', HotelSchema);

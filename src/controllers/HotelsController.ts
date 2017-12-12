@@ -27,6 +27,9 @@ export function createHotel(request, response, next) {
     let stars = request.body.stars;
     let images = request.body.images;
     let price = request.body.price;
+    let address = request.body.address;
+    let latitude = request.body.latitude;
+    let longitude = request.body.longitude;
 
     // if(!name || !stars || !price){
     //     response.status(422).json({ error: 'Hay campos obligatorios sin llenar.' });
@@ -37,7 +40,10 @@ export function createHotel(request, response, next) {
         name,
         stars,
         images,
-        price
+        price,
+        address,
+        latitude,
+        longitude    
     });
 
     hotel.save((error, hotel) => {
