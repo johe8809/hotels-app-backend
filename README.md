@@ -13,7 +13,7 @@ Se debe tener instalado [NodeJs](https://nodejs.org/es/download/) y [MongoDB](ht
 1. Clonar el proyecto digitando el siguiente comando en la consola: 
 
 ```
-https://github.com/johe8809/hotels-app-backend
+https://github.com/johe8809/hotels-app-backend.git
 ```
 2. Ejecutar el siguiente comando para instalar los paquetes que se encuentran en el package.json
 
