@@ -4,7 +4,7 @@ La API REST está desarrollada con tecnologías Node.js, Express y MongoDB como 
 
 ## Pre-requisitos
 
-Se debe tener instalado [NodeJs](https://nodejs.org/es/download/) y [MongoDB](https://www.mongodb.com/download-center#atlas) en el equipo.
+Se debe tener instalado [NodeJs](https://nodejs.org/es/download/) y [MongoDB](https://www.mongodb.com/download-center#atlas) en el equipo, pero para mayor facilidad se creo una base de datos en https://mlab.com/ y se agregó la cadena de conexión en el archivo `main.ts`.
 
 
 
