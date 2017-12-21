@@ -4,7 +4,7 @@
   "description": "API REST HOTELS-APP",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --watch --color --config webpack.config.js",
+    "build": "webpack --color --config webpack.config.js",
     "start": "node dist/bundle.js"
   },
   "author": "Yonnathan Henao",
